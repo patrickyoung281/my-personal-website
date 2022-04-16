@@ -1,3 +1,18 @@
-body {
-    background: blue;
+h1#main_title, h2#subtitle {
+    text-align: center;
 }
+
+body {
+    background-image: url(images/german-flag.png), url(images/american-flag.png), url(images/Florida-Gators.webp), url(images/Bavarian\ Flag.jpg);
+    background-position: left top, right top, 265px 0px, 1000px 0px;
+    background-size: 270px 150px, 270px 150px, 275px 150px, 275px 153.5px;  
+    background-repeat: no-repeat, no-repeat, no-repeat, no-repeat;
+}
+
+table#main_table {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-size: 30px;
+}
+
