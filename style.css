@@ -7,6 +7,18 @@ body {
     background-position: left top, right top, 265px 0px, 1000px 0px;
     background-size: 270px 150px, 270px 150px, 275px 150px, 275px 153.5px;  
     background-repeat: no-repeat, no-repeat, no-repeat, no-repeat;
+    overflow: auto;
+}
+
+body {
+    overflow: scroll;
+}
+
+#Intro {
+    position: relative;
+    left: 500px;
+    text-align: justify;
+    
 }
 
 table#main_table {
@@ -16,3 +28,261 @@ table#main_table {
     font-size: 30px;
 }
 
+#Football {
+    width: 200px;
+    height: auto;
+    border: 10px groove orange;
+    position: relative;
+    top: -410px;
+    left: 10px;
+    display: table;
+}
+
+figcaption#Football_Caption {
+    position: relative;
+    top: -390px;
+    left: 10px;
+    font-size: medium;
+}
+
+#Fencing {
+    width: 300px;
+    height: auto;
+    border: 10px groove blue;
+    position: relative;
+    top: -730px;
+    left: 1100px;
+}
+
+figcaption#Fencing_Caption {
+    position: relative;
+    top: -710px;
+    left: 1140px;
+}
+
+#Section1 {
+    position: relative;
+    top: -600px;
+}
+
+#Section_1_Header {
+    text-align: center;
+}
+
+#Sibs {
+    position: relative;
+    width: 350px;
+    height: auto;
+    top: 200;
+    float: left;
+    border: groove red;
+    margin-left: 30px;
+}
+
+#Section_1_Text {
+    position: relative;
+    border-style: groove;
+    border-color: red;
+    color: red;
+    display: inline-block;
+    vertical-align: top;
+    left: 10px;
+}
+
+#Tibbets {
+    position: relative;
+    width: 350px;
+    height: auto;
+    float: right;
+    border: groove yellow;
+    margin-right: 30px;
+}
+
+#Tibbets_Text {
+    position: relative;
+    border-style: groove;
+    border-color: yellow;
+    display: inline-block;
+    right: -70px
+    
+}
+
+#Section2 {
+    position: relative;
+    top: -600px;
+}
+
+#Section_2_Header {
+    text-align: center;
+}
+
+#Roomies {
+    width: 400px;
+    height: auto;
+    float: left;
+    border: groove lightblue; 
+}
+
+#Roomies_Text {
+    position: relative;
+    border-style: groove;
+    border-color: lightblue;
+    display: inline-block;
+    top: -15px;
+}
+
+#Fencing2 {
+    position: relative;
+    width: 300px;
+    height: auto;
+    float: right;
+    border: groove yellow;
+}
+
+#Fencing2Text {
+    position: relative;
+    border: groove;
+    border-color: yellow;
+    display: inline-block;
+    right: -100px;
+}
+
+#FencingTeam {
+    width: 300px;
+    height: auto;
+    float: right;
+    border: groove yellow;
+}
+
+#FencingPose {
+    width: 250px;
+    height: auto;
+    float: right;
+    padding: 5px;
+    border: groove yellow;
+}
+
+#FencingSitting {
+    width: 300px;
+    height: auto;
+    float: right;
+    padding: 5px;
+    border: groove yellow;
+}
+
+#FencingMedal {
+    width: 300px;
+    height: auto;
+    float: right;
+    padding: 5px;
+    border: groove yellow;
+}
+
+#Matty {
+    width: 250px;
+    height: auto;
+    float: right;
+    padding: 5px;
+    border: groove yellow;
+}
+
+#Section3 {
+    position: relative;
+    top: -600px;
+}
+
+#Section_3_Header {
+    text-align: center;
+}
+
+#Section_3_Text {
+    position: relative;
+    border: groove;
+    border-color: orange;
+    display: inline-block;
+    text-align: left;
+    padding: 70px;
+    text-align: justify;
+}
+
+#Mannheim1, #Mannheim2, #Mannheim3, #Mannheim4 {
+    width: 350px;
+    height: auto;
+    padding: 5px;
+    border: groove orange;
+    float: left;
+    padding: 10px;
+    
+}
+
+#M1 {
+    text-align: left;
+    position: relative;
+    top: -580px;
+    left: -1120px;
+}
+
+#Section4 {
+    position: relative;
+    top: -600px;
+}
+
+#Section_4_Header {
+    text-align: center;
+}
+
+#Section_4_Text {
+    padding: 10px;
+    border-style: groove;
+    border: darkblue;
+    display:inline-block;
+    left: 15px;
+    right: 15px;
+}
+
+#Munich1, #Munich2, #Munich3, #Munich4 {
+    width: 300px;
+    height: auto;
+}
+
+#Section5 {
+    position: relative;
+    top: -600px;
+}
+
+#Section_5_Header {
+    text-align: center;
+}
+
+.S5 {
+    width: 300px;
+    height: auto;
+}
+
+#Section6 {
+    position: relative;
+    top: -600px;
+}
+
+#Section_6_Header {
+    text-align: center;
+}
+
+#S6 {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    width: 600px;
+    height: auto;
+}
+
+#S6Text {
+    text-align: center;
+    font-size: larger;
+    padding: 10px;
+    border-style: groove;
+    border-color: red;
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+}
