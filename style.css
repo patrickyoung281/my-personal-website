@@ -12,6 +12,7 @@ body {
 
 body {
     overflow: scroll;
+    overflow-x: hidden;
 }
 
 #Intro {
@@ -205,15 +206,16 @@ figcaption#Fencing_Caption {
     text-align: justify;
 }
 
-#Mannheim1, #Mannheim2, #Mannheim3, #Mannheim4 {
-    width: 350px;
+ #Mannheim1, #Mannheim2, #Mannheim3, #Mannheim4 {
+    width: 280px;
     height: auto;
     padding: 5px;
     border: groove orange;
     float: left;
-    padding: 10px;
+
     
 }
+
 
 #M1 {
     text-align: left;
@@ -285,4 +287,15 @@ figcaption#Fencing_Caption {
     display: inline-block;
     margin-left: auto;
     margin-right: auto;
+}
+
+figcaption {
+    clear: both;
+    display: table-caption;
+    caption-side: bottom;
+}
+
+figure {
+    float: left;
+    display: table;
 }
