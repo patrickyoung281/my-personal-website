@@ -210,10 +210,7 @@ figcaption#Fencing_Caption {
     width: 280px;
     height: auto;
     padding: 5px;
-    border: groove orange;
-    float: left;
-
-    
+    border: groove orange;    
 }
 
 
@@ -289,13 +286,13 @@ figcaption#Fencing_Caption {
     margin-right: auto;
 }
 
-figcaption {
+figcaption.captions {
     clear: both;
     display: table-caption;
     caption-side: bottom;
 }
 
-figure {
+figure.MannheimPics {
     float: left;
     display: table;
 }
