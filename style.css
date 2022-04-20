@@ -151,14 +151,13 @@ figcaption#Fencing_Caption {
 #FencingTeam {
     width: 300px;
     height: auto;
-    float: right;
     border: groove yellow;
+    padding: 5px;
 }
 
 #FencingPose {
     width: 250px;
     height: auto;
-    float: right;
     padding: 5px;
     border: groove yellow;
 }
@@ -166,7 +165,6 @@ figcaption#Fencing_Caption {
 #FencingSitting {
     width: 300px;
     height: auto;
-    float: right;
     padding: 5px;
     border: groove yellow;
 }
@@ -174,7 +172,6 @@ figcaption#Fencing_Caption {
 #FencingMedal {
     width: 300px;
     height: auto;
-    float: right;
     padding: 5px;
     border: groove yellow;
 }
@@ -182,9 +179,20 @@ figcaption#Fencing_Caption {
 #Matty {
     width: 250px;
     height: auto;
-    float: right;
     padding: 5px;
     border: groove yellow;
+}
+
+figcaption.FencingCaptions {
+    clear: both;
+    display: table-caption;
+    caption-side: bottom;
+}
+
+figure.FencingPics {
+    float: left;
+    display: table;
+    margin-top: 80px;
 }
 
 #Section3 {
