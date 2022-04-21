@@ -22,6 +22,32 @@ body {
     
 }
 
+#WelcomeMessage {
+    text-align: center;
+    color: black;
+}
+
+#btn {
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    background-color: blue;
+    color: orange;
+    font-size: 30px;
+    border-radius: 12px;
+    transition-duration: 0.01s;
+    width: 180px;
+    border: orange;
+    border-style: groove;
+    border-width: 4px;
+}
+
+#btn:hover {
+    background-color: orange;
+    color: blue;
+}
+
 table#main_table {
     margin-left: auto;
     margin-right: auto;
