@@ -16,10 +16,34 @@ body {
 }
 
 #Intro {
-    position: relative;
-    left: 500px;
-    text-align: justify;
+    margin-left: 35%;
+    margin-right: 30%;
     
+}
+
+#medals {
+    position: relative;
+    width: 300px;
+    height: auto;
+    float: left;
+    left: 30px;
+}
+
+#Stromberg {
+    float: right;
+    width: 300px;
+    height: auto;
+    position: relative;
+    top: -270px;
+    left: -40px;
+}
+
+#StrombergQuote {
+    display: block;
+    text-align: center;
+    position: relative;
+    left: 670px;
+    top: -90px;
 }
 
 #WelcomeMessage {
@@ -49,10 +73,13 @@ body {
 }
 
 table#main_table {
+    position: relative;
     margin-left: auto;
     margin-right: auto;
     text-align: center;
     font-size: 30px;
+    left: 175px;
+    top: -65px;
     
 }
 
@@ -65,14 +92,14 @@ table#main_table {
     height: auto;
     border: 10px groove orange;
     position: relative;
-    top: -410px;
+    top: -520px;
     left: 10px;
     display: table;
 }
 
 figcaption#Football_Caption {
     position: relative;
-    top: -390px;
+    top: -500px;
     left: 10px;
     font-size: medium;
 }
@@ -82,13 +109,13 @@ figcaption#Football_Caption {
     height: auto;
     border: 10px groove blue;
     position: relative;
-    top: -730px;
+    top: -850px;
     left: 1100px;
 }
 
 figcaption#Fencing_Caption {
     position: relative;
-    top: -710px;
+    top: -840px;
     left: 1140px;
 }
 
