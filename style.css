@@ -310,9 +310,32 @@ figure.FencingPics {
     right: 15px;
 }
 
+#MunichTable {
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0px;
+}
+
 #Munich1, #Munich2, #Munich3, #Munich4 {
-    width: 300px;
+    width: 400px;
     height: auto;
+    border: groove blue;
+    padding: 5px;
+}
+
+#Bayern {
+    width: 80%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+#BayernCaption {
+    font-size: 40px;
+    color: blue;
+    text-align: center;
+    margin-top: 20px;
 }
 
 #Section5 {
