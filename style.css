@@ -53,6 +53,11 @@ table#main_table {
     margin-right: auto;
     text-align: center;
     font-size: 30px;
+    
+}
+
+#main_table tr:hover {
+    background-color: orange;
 }
 
 #Football {
@@ -174,8 +179,34 @@ figcaption#Fencing_Caption {
     right: -100px;
 }
 
+#FencingTable, th, td {
+    padding: 0px;
+    text-align: center;
+}
+
 #FencingTeam {
-    width: 300px;
+    width: 290px;
+    height: auto;
+    border: groove yellow;
+    padding: 5px;
+}
+
+#The351 {
+    width: 290px;
+    height: auto;
+    border: groove yellow;
+    padding: 5px;
+}
+
+#Halloween {
+    width: 290px;
+    height: auto;
+    border: groove yellow;
+    padding: 5px;
+}
+
+#Turds {
+    width: 290px;
     height: auto;
     border: groove yellow;
     padding: 5px;
@@ -189,7 +220,7 @@ figcaption#Fencing_Caption {
 }
 
 #FencingSitting {
-    width: 300px;
+    width: 290px;
     height: auto;
     padding: 5px;
     border: groove yellow;
