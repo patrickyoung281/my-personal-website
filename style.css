@@ -92,6 +92,19 @@ figcaption#Fencing_Caption {
     left: 1140px;
 }
 
+.BacktoTop {
+    display: block;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    font-size:larger;
+    padding: 10px 20px;
+    background-color:darkblue;
+    margin-left: 45%;
+    margin-right: 45%;
+    color: white; 
+}
+
 #Section1 {
     position: relative;
     top: -600px;
@@ -351,7 +364,12 @@ figure.FencingPics {
 #BigAppleTable {
     margin-left: auto;
     margin-right: auto;
-    padding: 0px;
+}
+
+.AppleID {
+    margin-top: 10px;
+    margin-bottom: 80px;
+    font-size: larger;
 }
 
 .S5 {
