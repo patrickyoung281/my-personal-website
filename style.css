@@ -18,6 +18,7 @@ body {
 #Intro {
     margin-left: 35%;
     margin-right: 30%;
+    font-size: larger;
     
 }
 
@@ -40,10 +41,14 @@ body {
 
 #StrombergQuote {
     display: block;
-    text-align: center;
+    text-align: justify;
     position: relative;
-    left: 670px;
+    left: 1110px;
     top: -90px;
+}
+
+#Quote {
+    font-size: large;
 }
 
 #WelcomeMessage {
@@ -139,6 +144,7 @@ figcaption#Fencing_Caption {
 
 #Section_1_Header {
     text-align: center;
+    font-size: 30px;
 }
 
 #Sibs {
@@ -148,34 +154,45 @@ figcaption#Fencing_Caption {
     top: 200;
     float: left;
     border: groove red;
-    margin-left: 30px;
+    margin-left: 40px;
 }
 
 #Section_1_Text {
     position: relative;
+    text-align: justify;
+    line-height: 1.6;
     border-style: groove;
     border-color: red;
     color: red;
+    font-size: large;
     display: inline-block;
     vertical-align: top;
-    left: 10px;
+    left: 40px;
+    padding: 10px
 }
 
 #Tibbets {
     position: relative;
-    width: 350px;
+    width: 400px;
     height: auto;
     float: right;
     border: groove yellow;
     margin-right: 30px;
+    bottom: 40px;
 }
 
 #Tibbets_Text {
+    font-size: large;
+    line-height: 1.6;
+    padding: 10px;
+    display: block;
     position: relative;
     border-style: groove;
     border-color: yellow;
     display: inline-block;
-    right: -70px
+    margin-left: auto;
+    margin-right: auto;
+    left: 330px;
     
 }
 
@@ -186,6 +203,7 @@ figcaption#Fencing_Caption {
 
 #Section_2_Header {
     text-align: center;
+    font-size: 30px;
 }
 
 #Roomies {
@@ -197,10 +215,14 @@ figcaption#Fencing_Caption {
 
 #Roomies_Text {
     position: relative;
+    font-size: large;
+    padding: 10px;
     border-style: groove;
     border-color: lightblue;
     display: inline-block;
     top: -15px;
+    line-height: 1.6;
+    margin-left: 5px;
 }
 
 #Fencing2 {
@@ -214,9 +236,14 @@ figcaption#Fencing_Caption {
 #Fencing2Text {
     position: relative;
     border: groove;
+    font-size: large;
+    padding: 10px;
+    line-height: 1.6;
     border-color: yellow;
     display: inline-block;
-    right: -100px;
+    right: -120px;
+    top: -40px;
+    margin-bottom: 0px;
 }
 
 #FencingTable, th, td {
@@ -284,6 +311,8 @@ figcaption.FencingCaptions {
     clear: both;
     display: table-caption;
     caption-side: bottom;
+    font-size: large;
+    margin-top: 5px;
 }
 
 figure.FencingPics {
@@ -299,15 +328,17 @@ figure.FencingPics {
 
 #Section_3_Header {
     text-align: center;
+    font-size: 30px;
 }
 
 #Section_3_Text {
     position: relative;
+    font-size: large;
+    line-height: 1.6;
     border: groove;
     border-color: orange;
     display: inline-block;
-    text-align: left;
-    padding: 70px;
+    padding: 40px;
     text-align: justify;
 }
 
@@ -324,6 +355,10 @@ figure.FencingPics {
     border: groove orange;    
 }
 
+.captions {
+    font-size: large;
+    margin-top: 10px;
+}
 
 #M1 {
     text-align: left;
@@ -339,15 +374,17 @@ figure.FencingPics {
 
 #Section_4_Header {
     text-align: center;
+    font-size: 30px;
 }
 
 #Section_4_Text {
-    padding: 10px;
-    border-style: groove;
-    border: darkblue;
-    display:inline-block;
-    left: 15px;
-    right: 15px;
+    border: groove;
+    border-color: blue;
+    padding: 30px;
+    font-size: large;
+    line-height: 1.6;
+    margin-left: 3%;
+    margin-right: 3%;
 }
 
 #MunichTable {
@@ -372,6 +409,11 @@ figure.FencingPics {
     border-radius: 10%;
 }
 
+.MunichCaption {
+    font-size: large;
+    margin-top: 10px;
+}
+
 #BayernCaption {
     font-size: 40px;
     color: blue;
@@ -386,6 +428,17 @@ figure.FencingPics {
 
 #Section_5_Header {
     text-align: center;
+    font-size: 30px;
+}
+
+#Section_5_Text {
+    font-size: large;
+    border: groove;
+    border-color: forestgreen;
+    line-height: 1.6;
+    padding: 20px;
+    margin-left: 3%;
+    margin-right: 3%;
 }
 
 #BigAppleTable {
@@ -414,6 +467,8 @@ figure.FencingPics {
 .S5 {
     width: 600px;
     height: auto;
+    border: groove;
+    border-color: forestgreen;
 }
 
 #Section6 {
@@ -423,6 +478,8 @@ figure.FencingPics {
 
 #Section_6_Header {
     text-align: center;
+    margin-top: 50px;
+    font-size: 30px;
 }
 
 #S6 {
@@ -431,6 +488,46 @@ figure.FencingPics {
     display: block;
     width: 600px;
     height: auto;
+}
+
+#travelParagraph {
+    position: relative;
+    border: groove;
+    border-color: orange;
+    display: inline-block;
+    padding: 70px;
+    text-align: justify;
+    line-height: 1.6;
+    font-size: 20px;
+}
+
+#TravelTable {
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    margin-bottom: 0px;
+}
+
+.S6 {
+    width: 550px; 
+    height: auto;
+    border: groove;
+    border-color: orange;
+}
+
+#Vermin {
+    width: 300px;
+    height: auto;
+    border: groove;
+    border-color: orange;
+}
+
+.TravelID {
+    text-align: justify;
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 30px;
+    font-size: large;
 }
 
 #S6Text {
@@ -453,6 +550,18 @@ figcaption.captions {
 figure.MannheimPics {
     float: left;
     display: table;
+}
+
+#Section_7_Header {
+    position: relative;
+    top: -550px;
+    text-align: center;
+    font-size: 30px;
+}
+
+#Section7BacktoTop {
+    position: relative;
+    top: -500px;
 }
 
 hr.Divider {
